@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6724" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SrR-47-svq">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="squid-image" translatesAutoresizingMaskIntoConstraints="NO" id="zAm-Pt-S2B">
+                                        <rect key="frame" x="0.0" y="0.0" width="682" height="365"/>
+                                    </imageView>
+                                </subviews>
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p2C-5V-HIG">
+                                <rect key="frame" x="238" y="570" width="124" height="30"/>
+                                <state key="normal" title="Enbiggen Content">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="enbiggen:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dBP-kt-dPA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="p2C-5V-HIG" secondAttribute="centerX" id="Og1-vI-yhC"/>
+                            <constraint firstAttribute="width" secondItem="SrR-47-svq" secondAttribute="width" id="ZNS-67-RGg"/>
+                            <constraint firstAttribute="centerX" secondItem="SrR-47-svq" secondAttribute="centerX" id="fI1-Rc-imA"/>
+                            <constraint firstAttribute="height" secondItem="SrR-47-svq" secondAttribute="height" id="nBo-3a-Mfd"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="p2C-5V-HIG" secondAttribute="bottom" id="qnx-7a-2S5"/>
+                            <constraint firstAttribute="centerY" secondItem="SrR-47-svq" secondAttribute="centerY" id="wXF-Dd-9NB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="zAm-Pt-S2B" id="yMM-VO-dqq"/>
+                        <outlet property="scrollView" destination="SrR-47-svq" id="47O-GQ-7jv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="squid-image" width="640" height="427"/>
+    </resources>
+</document>

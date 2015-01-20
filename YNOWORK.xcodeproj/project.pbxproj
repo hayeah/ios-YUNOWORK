@@ -6,11 +6,42 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		89B3B8FE1A6E9E2800E2DEE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89B3B8F91A6E9E2700E2DEE0 /* ScrollViewStickyAutolayout.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 89B3B8D01A6E9E2700E2DEE0;
+			remoteInfo = ScrollViewStickyAutolayout;
+		};
+		89B3B9001A6E9E2800E2DEE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89B3B8F91A6E9E2700E2DEE0 /* ScrollViewStickyAutolayout.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 89B3B8E91A6E9E2700E2DEE0;
+			remoteInfo = ScrollViewStickyAutolayoutTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89B3B8F91A6E9E2700E2DEE0 /* ScrollViewStickyAutolayout.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ScrollViewStickyAutolayout.xcodeproj; path = ScrollViewStickyAutolayout/ScrollViewStickyAutolayout.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		89B3B8C01A6E9DFE00E2DEE0 = {
 			isa = PBXGroup;
 			children = (
+				89B3B8F91A6E9E2700E2DEE0 /* ScrollViewStickyAutolayout.xcodeproj */,
 			);
+			sourceTree = "<group>";
+		};
+		89B3B8FA1A6E9E2700E2DEE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89B3B8FF1A6E9E2800E2DEE0 /* ScrollViewStickyAutolayout.app */,
+				89B3B9011A6E9E2800E2DEE0 /* ScrollViewStickyAutolayoutTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -30,11 +61,34 @@
 			);
 			mainGroup = 89B3B8C01A6E9DFE00E2DEE0;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 89B3B8FA1A6E9E2700E2DEE0 /* Products */;
+					ProjectRef = 89B3B8F91A6E9E2700E2DEE0 /* ScrollViewStickyAutolayout.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		89B3B8FF1A6E9E2800E2DEE0 /* ScrollViewStickyAutolayout.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ScrollViewStickyAutolayout.app;
+			remoteRef = 89B3B8FE1A6E9E2800E2DEE0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		89B3B9011A6E9E2800E2DEE0 /* ScrollViewStickyAutolayoutTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ScrollViewStickyAutolayoutTests.xctest;
+			remoteRef = 89B3B9001A6E9E2800E2DEE0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin XCBuildConfiguration section */
 		89B3B8C51A6E9DFE00E2DEE0 /* Debug */ = {
