@@ -10,3 +10,6 @@ This problem persists even after removing the generated width and height constra
 
 It does this even though the subview's constraints is empty.
 
+# Workaround
+
+Programatically adding the UIImageView to the UIScrollView works.
