@@ -1,0 +1,67 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXGroup section */
+		89B3B8C01A6E9DFE00E2DEE0 = {
+			isa = PBXGroup;
+			children = (
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		89B3B8C11A6E9DFE00E2DEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+			};
+			buildConfigurationList = 89B3B8C41A6E9DFE00E2DEE0 /* Build configuration list for PBXProject "YNOWORK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 89B3B8C01A6E9DFE00E2DEE0;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		89B3B8C51A6E9DFE00E2DEE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		89B3B8C61A6E9DFE00E2DEE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89B3B8C41A6E9DFE00E2DEE0 /* Build configuration list for PBXProject "YNOWORK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89B3B8C51A6E9DFE00E2DEE0 /* Debug */,
+				89B3B8C61A6E9DFE00E2DEE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89B3B8C11A6E9DFE00E2DEE0 /* Project object */;
+}
